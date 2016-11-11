@@ -16,6 +16,7 @@
 		86257C401DD569CA0038B8B2 /* CustomLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86257C3F1DD569CA0038B8B2 /* CustomLayoutUITests.swift */; };
 		862805AD1DD580C200FCD9AD /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862805AC1DD580C200FCD9AD /* CustomCollectionViewCell.swift */; };
 		863FCA291DD57C02003C5BF2 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863FCA281DD57C02003C5BF2 /* FlowLayout.swift */; };
+		86D4B22D1DD633E1002EF89A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4B22C1DD633E1002EF89A /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		86257C411DD569CA0038B8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		862805AC1DD580C200FCD9AD /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		863FCA281DD57C02003C5BF2 /* FlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
+		86D4B22C1DD633E1002EF89A /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +105,13 @@
 			children = (
 				86257C1F1DD569CA0038B8B2 /* AppDelegate.swift */,
 				86257C211DD569CA0038B8B2 /* ViewController.swift */,
-				862805AC1DD580C200FCD9AD /* CustomCollectionViewCell.swift */,
-				863FCA281DD57C02003C5BF2 /* FlowLayout.swift */,
 				86257C231DD569CA0038B8B2 /* Main.storyboard */,
 				86257C261DD569CA0038B8B2 /* Assets.xcassets */,
 				86257C281DD569CA0038B8B2 /* LaunchScreen.storyboard */,
 				86257C2B1DD569CA0038B8B2 /* Info.plist */,
+				86D4B22C1DD633E1002EF89A /* DetailView.swift */,
+				863FCA281DD57C02003C5BF2 /* FlowLayout.swift */,
+				862805AC1DD580C200FCD9AD /* CustomCollectionViewCell.swift */,
 			);
 			path = CustomLayout;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				86257C221DD569CA0038B8B2 /* ViewController.swift in Sources */,
 				863FCA291DD57C02003C5BF2 /* FlowLayout.swift in Sources */,
 				86257C201DD569CA0038B8B2 /* AppDelegate.swift in Sources */,
+				86D4B22D1DD633E1002EF89A /* DetailView.swift in Sources */,
 				862805AD1DD580C200FCD9AD /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

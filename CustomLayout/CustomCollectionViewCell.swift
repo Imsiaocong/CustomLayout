@@ -9,5 +9,19 @@
 import UIKit
 
 class CustomCollectionViewCell: UICollectionViewCell {
-    @IBOutlet weak var photos: UIImageView!
+    var photos: UIImageView!
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        //Additional Steps Below.
+        self.photos = UIImageView()
+        self.photos.frame.size = CGSize(width: 100, height: 100)
+        self.photos.layer.cornerRadius = 50
+        self.photos.clipsToBounds = true
+        self.addSubview(self.photos)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 }

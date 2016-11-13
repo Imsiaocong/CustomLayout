@@ -102,4 +102,5 @@ class FlowLayout: UICollectionViewFlowLayout {
         
         return CGPoint(x: proposedContentOffset.x + adjustOffsetX, y: proposedContentOffset.y)
     }
+    
 }

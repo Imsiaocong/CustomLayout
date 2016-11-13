@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		862568781DD6CA9B00588EDC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862568761DD6CA9B00588EDC /* DetailViewController.swift */; };
+		862568791DD6CA9B00588EDC /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 862568771DD6CA9B00588EDC /* DetailViewController.xib */; };
 		86257C201DD569CA0038B8B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86257C1F1DD569CA0038B8B2 /* AppDelegate.swift */; };
 		86257C221DD569CA0038B8B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86257C211DD569CA0038B8B2 /* ViewController.swift */; };
 		86257C251DD569CA0038B8B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86257C231DD569CA0038B8B2 /* Main.storyboard */; };
@@ -16,7 +18,6 @@
 		86257C401DD569CA0038B8B2 /* CustomLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86257C3F1DD569CA0038B8B2 /* CustomLayoutUITests.swift */; };
 		862805AD1DD580C200FCD9AD /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862805AC1DD580C200FCD9AD /* CustomCollectionViewCell.swift */; };
 		863FCA291DD57C02003C5BF2 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863FCA281DD57C02003C5BF2 /* FlowLayout.swift */; };
-		86D4B22D1DD633E1002EF89A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4B22C1DD633E1002EF89A /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		862568761DD6CA9B00588EDC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		862568771DD6CA9B00588EDC /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		86257C1C1DD569CA0038B8B2 /* CustomLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86257C1F1DD569CA0038B8B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86257C211DD569CA0038B8B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +55,6 @@
 		86257C411DD569CA0038B8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		862805AC1DD580C200FCD9AD /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		863FCA281DD57C02003C5BF2 /* FlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
-		86D4B22C1DD633E1002EF89A /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +82,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8625687A1DD6CAA300588EDC /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				862568761DD6CA9B00588EDC /* DetailViewController.swift */,
+				862568771DD6CA9B00588EDC /* DetailViewController.xib */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
 		86257C131DD569CA0038B8B2 = {
 			isa = PBXGroup;
 			children = (
+				8625687A1DD6CAA300588EDC /* Others */,
 				86257C1E1DD569CA0038B8B2 /* CustomLayout */,
 				86257C331DD569CA0038B8B2 /* CustomLayoutTests */,
 				86257C3E1DD569CA0038B8B2 /* CustomLayoutUITests */,
@@ -109,7 +121,6 @@
 				86257C261DD569CA0038B8B2 /* Assets.xcassets */,
 				86257C281DD569CA0038B8B2 /* LaunchScreen.storyboard */,
 				86257C2B1DD569CA0038B8B2 /* Info.plist */,
-				86D4B22C1DD633E1002EF89A /* DetailView.swift */,
 				863FCA281DD57C02003C5BF2 /* FlowLayout.swift */,
 				862805AC1DD580C200FCD9AD /* CustomCollectionViewCell.swift */,
 			);
@@ -202,6 +213,7 @@
 				TargetAttributes = {
 					86257C1B1DD569CA0038B8B2 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = PGC62Z29HJ;
 						ProvisioningStyle = Automatic;
 					};
 					86257C2F1DD569CA0038B8B2 = {
@@ -244,6 +256,7 @@
 				86257C2A1DD569CA0038B8B2 /* LaunchScreen.storyboard in Resources */,
 				86257C271DD569CA0038B8B2 /* Assets.xcassets in Resources */,
 				86257C251DD569CA0038B8B2 /* Main.storyboard in Resources */,
+				862568791DD6CA9B00588EDC /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +283,8 @@
 			files = (
 				86257C221DD569CA0038B8B2 /* ViewController.swift in Sources */,
 				863FCA291DD57C02003C5BF2 /* FlowLayout.swift in Sources */,
+				862568781DD6CA9B00588EDC /* DetailViewController.swift in Sources */,
 				86257C201DD569CA0038B8B2 /* AppDelegate.swift in Sources */,
-				86D4B22D1DD633E1002EF89A /* DetailView.swift in Sources */,
 				862805AD1DD580C200FCD9AD /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +437,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PGC62Z29HJ;
 				INFOPLIST_FILE = CustomLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Di-Wang.CustomLayout";
@@ -436,6 +451,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = PGC62Z29HJ;
 				INFOPLIST_FILE = CustomLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Di-Wang.CustomLayout";

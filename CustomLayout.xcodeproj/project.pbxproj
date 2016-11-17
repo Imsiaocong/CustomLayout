@@ -53,8 +53,8 @@
 		86257C411DD569CA0038B8B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		862805AC1DD580C200FCD9AD /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		863FCA281DD57C02003C5BF2 /* FlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlowLayout.swift; sourceTree = "<group>"; };
-		86C756E11DD7F858003FC24E /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailView.xib; sourceTree = "<group>"; };
-		86C756E31DD7F8D8003FC24E /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		86C756E11DD7F858003FC24E /* DetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailView.xib; path = ../DetailView.xib; sourceTree = "<group>"; };
+		86C756E31DD7F8D8003FC24E /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailView.swift; path = ../DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,6 @@
 		8625687A1DD6CAA300588EDC /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				86C756E11DD7F858003FC24E /* DetailView.xib */,
-				86C756E31DD7F8D8003FC24E /* DetailView.swift */,
 			);
 			name = Others;
 			sourceTree = "<group>";
@@ -95,6 +93,9 @@
 			isa = PBXGroup;
 			children = (
 				8625687A1DD6CAA300588EDC /* Others */,
+				8638DD121DDC238E002F8D16 /* Model */,
+				8638DD141DDC23C8002F8D16 /* View */,
+				8638DD131DDC23A2002F8D16 /* Controller */,
 				86257C1E1DD569CA0038B8B2 /* CustomLayout */,
 				86257C331DD569CA0038B8B2 /* CustomLayoutTests */,
 				86257C3E1DD569CA0038B8B2 /* CustomLayoutUITests */,
@@ -116,13 +117,10 @@
 			isa = PBXGroup;
 			children = (
 				86257C1F1DD569CA0038B8B2 /* AppDelegate.swift */,
-				86257C211DD569CA0038B8B2 /* ViewController.swift */,
 				86257C231DD569CA0038B8B2 /* Main.storyboard */,
 				86257C261DD569CA0038B8B2 /* Assets.xcassets */,
 				86257C281DD569CA0038B8B2 /* LaunchScreen.storyboard */,
 				86257C2B1DD569CA0038B8B2 /* Info.plist */,
-				863FCA281DD57C02003C5BF2 /* FlowLayout.swift */,
-				862805AC1DD580C200FCD9AD /* CustomCollectionViewCell.swift */,
 			);
 			path = CustomLayout;
 			sourceTree = "<group>";
@@ -143,6 +141,35 @@
 				86257C411DD569CA0038B8B2 /* Info.plist */,
 			);
 			path = CustomLayoutUITests;
+			sourceTree = "<group>";
+		};
+		8638DD121DDC238E002F8D16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				863FCA281DD57C02003C5BF2 /* FlowLayout.swift */,
+				862805AC1DD580C200FCD9AD /* CustomCollectionViewCell.swift */,
+			);
+			name = Model;
+			path = CustomLayout;
+			sourceTree = "<group>";
+		};
+		8638DD131DDC23A2002F8D16 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				86257C211DD569CA0038B8B2 /* ViewController.swift */,
+			);
+			name = Controller;
+			path = CustomLayout;
+			sourceTree = "<group>";
+		};
+		8638DD141DDC23C8002F8D16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86C756E11DD7F858003FC24E /* DetailView.xib */,
+				86C756E31DD7F8D8003FC24E /* DetailView.swift */,
+			);
+			name = View;
+			path = CustomLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
